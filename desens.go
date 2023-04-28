@@ -34,5 +34,5 @@ func DesensitizePhone(source string, digit PhoneDigit) string {
 		}
 		return reg.ReplaceAllString(source, "$1******$2")
 	}
-
+	return ""
 }
